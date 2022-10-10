@@ -1,4 +1,5 @@
 <?php
+    //string
     $nome = "arley";
     $str = 'meu nome <br>';
 
