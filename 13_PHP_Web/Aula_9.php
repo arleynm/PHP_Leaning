@@ -1,6 +1,6 @@
 <?php
 
-  setcookie("nome", "matheus", 3600);
+  setcookie("nome", "matheus",time() + 3600);
 
 
   if(isset($_COOKIE['nome'])){
@@ -21,7 +21,8 @@
 </head>
 <body>
   <h1>Ola mundo!</h1>
-
-  <??>
+  <?php if($nome != ""): ?>
+    <p>Seja bem vindo <?=$nome?></p>
+  <?php endif?;>
 </body>
 </html>
