@@ -15,5 +15,5 @@
 
     print_r($result);
 
-    conn-> close();
+    $conn-> close();
 ?>  

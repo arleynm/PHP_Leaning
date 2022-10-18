@@ -12,7 +12,10 @@
     $nome = "xicara";
     $descricao = "É uma xicara usada de cor rosa";
 
-    $q = "INSERT INTO $table(nome, descricao) VALUES ($nome, )"
+    $q = "INSERT INTO $table(nome, descricao) VALUES ('$nome', '$descricao')";
 
+    $conn->query($q);
+
+    $conn->close();
 
 ?>  

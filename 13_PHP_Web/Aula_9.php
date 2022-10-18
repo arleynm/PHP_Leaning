@@ -23,6 +23,6 @@
   <h1>Ola mundo!</h1>
   <?php if($nome != ""): ?>
     <p>Seja bem vindo <?=$nome?></p>
-  <?php endif?;>
+  <?php endif;?>
 </body>
 </html>
